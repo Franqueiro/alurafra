@@ -8,27 +8,58 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>O Amor Proibido</title>
+    <script href="script.js"></script>
 </head>
 <body>
-    <div class="passo" id="passo-0">
-        <img href="./fotos/OIP (1).jpeg">
-        <p>Em um certo dia, Sofia, mãe de Lua e Artemis, foram juntados pelos destino,
-           morar na mesma casa e teriam que aturar como irmãos, mas a sorte tinha outros planos para os dois em uma nova vida em Veneza</p>
-        <button class="btn-proximo" data-proximo="1">CONTINUAR</button>
-    </div>
-    <div class="passo" id="passo-1">
-        <p>Artemis adorava viver a vida, sair todos os dias, se drogava, amava carros e participava de varios rachas. Ele tem uma Porsche 911 vermelha e era o lider de uma gang.</p>
-        <p>Lua era totalmente o contario de Artemis, ela era estudiosa, gostava de festas, mas não tanto quanto seu irmão</p>
-        <button class="btn-proximo" data-proximo="2">Seguir Lua</button>
-        <button class="btn-proximo" data-proximo="3">Seguir Artemis</button>
-    </div>
-    <div class="passo" id="passo-2">
-
-    </div>
-    <div class="passo" id="passo-3">
-
-    </div>
-
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="./fotos/OIP (1).jpeg" width="500px">
+            <p>Em um certo dia, Sofia, mãe de Lua e Théo, e Artemis foram juntados pelos destino,
+            morar na mesma casa e teriam que aturar como irmãos, mas a sorte tinha outros planos para os dois em uma nova vida em Veneza</p>
+            <button class="btn-proximo" data-proximo="1">CONTINUAR</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="./fotos/OIP (2).jpeg" width="500px">
+            <p>Artemis adorava viver a vida, sair todos os dias, se drogava, amava carros e participava de varios rachas. Ele tem uma Porsche 911 vermelha e era o lider
+                de uma gang.
+            </p>
+            <p>Sofia era totalmente o contario de Artemis, ela era estudiosa, gostava de festas, mas não tanto quanto seu irmão</p>
+            <button class="btn-proximo" data-proximo="2">SEGUIR SOFIA</button>
+            <button class="btn-proximo" data-proximo="3">SEGUIR ARTEMIS</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Sofia, não gostava nem um pouco do fato de ter que se mudar para Veneza, porém ela tinha muitas esperanças, ainda mais por estar indo com seus filhos, 
+                que também não gostavam do fato de ter que se mudar.
+            </p> 
+            <button class="btn-proximo" data-proximo="4">CONTINUAR</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="./fotos/OIP (3).jpeg" width="400px">
+            <p>Artemis curtia muito todos os tipos de carros, antigos, novos, de rally, de corrida, de arrancada, mas um modelo ele tinha no coração, o Porshe 911, pois
+                o pai dele o deu de presente antes de morrer.Além de curtir carros, ele participava de uma gang muito conhecida no leste de Veneza, e ele era o chefe da gang, e curtia baladas e festas, quando não
+                estava vandalizando por aí.Um certo dia, numa festa ele conheceu uma moça chamada Sofia, e ele a admirou de maneira maravilhosa, pela sua beleza e por seu sorriso encantador.
+                E nessa festa, ele foi chegando mais perto dela e resolveu ir conversar com ela:
+            </p>
+            <p>Artemis: OIE! Tudo bem? Estava te olhando de longe, e queria saber se você é solteira, se está afim, queria te conhecer...</p>
+            <p>Sofia: Oi moço! Tudo bem sim. Eu me chamo Sofia. Muito obrigada, te achei muito bonito também. Eu estou solteira sim, mas não estou afim de um relacionamento agora.</p>
+            <button class="btn-proximo" data-proximo="5">INSISTIR</button>
+            <button class="btn-proximo" data-proximo="6">AGRADECE-LÁ</button>
+        </div>
+        <div class="passo" id="passo-4">
+            
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Artemis: Sofia, me deixe te conhecer. Se você não quiser um relacionamento, eu te convenso do contrário... rsrsrs</p>
+            <p class="mid">Sofia: Verei... Me passa seu número, caso eu me interesse eu te mando mensagem.</p>
+            <p>Artemis passo o seu número para Sofia e depois de alguns dias acaba esquecendo disso.</p>
+            <button class="btn-proximo" data-proximo="7">MANDAR MENSAGEM</button>
+            <button class="btn-proximo" data-proximo="8">AGRADECE-LÁ</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Artemis: Okay Sofia. Muito obrigado pela atenção...</p>
+            <p>VOCÊ PERDEU!</p>
+        </div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
